@@ -1,15 +1,20 @@
+
 <html>
+    <head>
+        <script src="Bank.js"></script>
+    </head>
     <body>
         Enter Principle:
-        <input types="text" id="amt"/>
+        <input type="text" id="amt"/>
         <br/>
         Enter Time Period:
-        <input types="text" id="nper"/>
+        <input type="text" id="nper"/>
         <br/>
         Enter Rate Of Interest:
-        <input types="text" id="rate"/>
+        <input type="text" id="rate"/>
         <br/>
-        <input types="button" value="SI"/>
-        <br/>
+        <input type="button" value="SI" onclick="calculateSI()"/>
+        
+        <p id="res">Result:</p>
     </body>
 </html>
